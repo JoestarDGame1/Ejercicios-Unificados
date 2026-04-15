@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Validación de CURP en formulario con JavaScript</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="sidebar">
+        <h2>Script-ITO</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+    </div>
+
+    <div class="contenido">
+
+        <h2>Script 10</h2>
+        <h1>Validación de CURP en formulario con JavaScript</h1>
+
+
+        <form onsubmit="return valida(this.txtRFC);">
+            CURP <input type="text" name="txtRFC" maxlength="18" size="18"/>
+            <br/>
+            <input type="submit" value="Ok"/>
+        </form>
+        
+    </div>
+</div>
+
+<script src="../js/script10.js"></script>
+
+</body>
+</html>

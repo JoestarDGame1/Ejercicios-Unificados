@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Dinamico</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+  <script type="text/javascript" src="" charset="UTF-8"></script>
+<body>
+
+<div class="container">
+
+    <div class="sidebar">
+        <h2>Script-ITO</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+    </div>
+
+    <div class="contenido">
+
+        <h2>Script 18</h2>
+        <h1>Estilo dinámico: Manipulación de CSS con JavaScript</h1>
+<hr>
+
+<h2>Accediendo a estilos</h2>
+
+<p>
+El ejemplo muestra cómo acceder, crear y eliminar estilos.
+Presiona el botón para agregar o eliminar el estilo.
+</p>
+
+<input id="tss" type="button" value="Cambiar estilo" />
+
+<div id="e1">
+    Número de estilos: <span id="numOfStyleSheets"></span>
+</div>
+
+<style id="e1_style">
+#e1 {
+    font-weight: bold;
+    font-size: 115%;
+    color: green;
+}
+</style>
+
+<script src="../js/script18.js"></script>
+</html>

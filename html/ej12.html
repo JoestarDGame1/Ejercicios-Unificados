@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 12 - DOM básico y atributos CSS</title>
+
+    <style type="text/css">
+        .oculto { display: none; }
+        .visible { display: inline; }
+    </style>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="sidebar">
+        <h2>Script-ITO</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+    </div>
+
+    <div class="contenido">
+
+        <h2>Script 12</h2>
+        <h1>Seguir leyendo</h1>
+
+        <p class="texto">¿Sabia usted que...
+        <span id="adicional" class="oculto"> los alumnos a los cuales sus maestras de Programacion Web les pone un promedio de 100, son  los mas felices, eficientes al programar y mejores estudiantes. ;3
+            <a id="enlace1"  href="#" onclick="oculta()">Ocultar</a><br>
+        </span>
+        </p>
+        <a id="enlace" href="#" onclick="muestra()">Seguir leyendo</a><br>
+        
+    </div>
+</div>
+
+<script src="../js/script12.js"></script>
+
+</body>
+</html>

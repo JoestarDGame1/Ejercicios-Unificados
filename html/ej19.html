@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Adivina el número</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="sidebar">
+        <h2>Script-ITO</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+    </div>
+
+    <div class="contenido">
+
+        <h2>Script 19</h2>
+        <h1>Juego de Adivina número</h1>
+
+        <p>
+        Se ha generado un valor de entre 1 y 100. Intenta adivinarlo en 10 turnos o menos.
+        Te diremos si tu número es muy alto o muy bajo.
+        </p>
+
+        <div class="form">
+            <label for="campoAdivina">Ingresa un número: </label>
+            <input type="text" id="campoAdivina" class="campoAdivina">
+            <input type="submit" value="Adivinar" class="adivinaSubmit">
+        </div>
+
+        <div class="resultParas">
+            <p class="adivinanzas"></p>
+            <p class="ultimoResultado"></p>
+            <p class="bajoOAlto"></p>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="../js/script19.js"></script>
+
+</body>
+</html>
